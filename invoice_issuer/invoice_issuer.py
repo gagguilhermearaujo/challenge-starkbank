@@ -3,7 +3,7 @@ import time
 
 import starkbank
 
-with open("../private-key.pem", "r") as key:
+with open("private-key.pem", "r") as key:
     private_key_content = key.read()
 
 print(private_key_content)
